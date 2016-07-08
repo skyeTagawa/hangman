@@ -1,0 +1,73 @@
+body {
+	background-image: url('../images/dark.png');
+	font-family: 'dancing script', verdana;
+	font-size: 20px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.head {
+		background: #444551;
+}
+
+.image {
+	background-image: url('../images/harry.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 700px;
+	height: 231px;
+	margin: 0 auto;
+	box-shadow: 0 0 18px 8px #444551 inset;
+}
+
+.line {
+	width: 100%;
+	height: 20px;
+	background: #808080;
+	background: -webkit-gradient(linear, 0 0, 0 10%, from(#454551), to(#808080));
+	background: -webkit-gradient(linear, 0 10%, 0 90%, from(#454551), to(#343434));
+/*	box-shadow: 0 0 8px 8px #343434;*/
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	line-height: 150%;
+}
+
+.currentWord {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 26px;
+}
+
+.info {
+	padding-left: 10px;
+}
+
+.main {
+	padding: 65px;
+	width: 250px;
+	margin: 0 auto;
+	z-index: -1;
+	background-image: url('../images/light.png');
+	box-shadow: 0 0 8px 8px #343434 inset;
+}
+
+.top {
+	background: rgba(250,235,215,0.65);
+	z-index: 2;
+	width: 250px;
+	margin: 0 auto;
+}
+
+
+
